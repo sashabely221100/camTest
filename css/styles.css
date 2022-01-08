@@ -19,6 +19,12 @@ body {
     text-align: center;
 }
 
+.text:hover {
+    font-size: 44px;
+    display: none;
+    text-align: center;
+}
+
 #videoElement {
     background-color: #666;
     width: 100%;
