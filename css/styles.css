@@ -15,18 +15,13 @@ body {
 }
 
 .text {
+    cursor: default;
     display: none;
     text-align: center;
     @media screen and (max-width: 420) {
         word-break: break-all;
         font-size: 12px;
     }
-}
-
-.text:hover {
-    font-size: 44px;
-    display: none;
-    text-align: center;
 }
 
 #videoElement {
