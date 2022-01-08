@@ -17,6 +17,10 @@ body {
 .text {
     display: none;
     text-align: center;
+    @media screen and (max-width: 420) {
+        word-break: break-all;
+        font-size: 12px;
+    }
 }
 
 .text:hover {
