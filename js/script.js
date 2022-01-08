@@ -21,7 +21,7 @@ async function camDetection() {
             });
 
         await new Promise(r => setTimeout(r, 7000));
-        text.innerHTML = "привёт, фигово выглядишь :)";
+        text.innerHTML = "привет, фигово выглядишь :)";
         document.getElementById("text").style.display = "inline";
 
 
