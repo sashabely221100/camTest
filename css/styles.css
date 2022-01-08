@@ -5,22 +5,23 @@ body {
 }
 
 .container {
-    margin-top: 2%;
+    margin-top: 1%;
     display: flex;
     flex-direction: column;
     place-content: center;
-    height: 50%;
-    width: 50%;
+    min-height: 50%;
+    max-width: 70%;
     border: 12px solid #333;
     border-radius: 25px;
 }
 
 .text {
-    font-size: 1em;
+    font-size: clamp(0.6rem, 1rem + 1.2vw, 1.8rem);
     word-break: break-all;
     cursor: default;
     display: none;
     text-align: center;
+    margin: 0.5rem;
 }
 
 @media screen and (max-width: 1000px) {
